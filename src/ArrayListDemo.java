@@ -32,6 +32,8 @@ public class ArrayListDemo {
 
 
         // listeden referans cikarmak icin remove kullanilir. eski degeri bulmak istersek return kullaniriz.
+
+
         String silinenIsim = isimlerListesi.remove(1);
         System.out.println(silinenIsim + "listeden cikarilmistir");
 
@@ -57,5 +59,61 @@ public class ArrayListDemo {
         System.out.println("listemizde fadime ismi " + isimlerListesi.contains("fadime"));
 
         System.out.println(isimlerListesi);
+
+
+        // listede ismin liste numarasini bulmak icin indexof kullanilir
+
+        System.out.println(isimlerListesi.indexOf(" ayse "));
+
+        // listenn bos olup olmadigini donduren fonksiyon ise isEmpty fonksiyonudur
+
+        System.out.println(isimlerListesi.isEmpty()); // isimler listesi bosmu ?
+
+        System.out.println("----------------------------------------------------------------------------------");
+
+        // array list ler siklikla for loop larin icinde kullanilir
+
+        for (String isim:isimlerListesi) {
+            System.out.println(isim);
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
